@@ -1,0 +1,22 @@
+{
+  "name": "node-js-no-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowcheemeng02/node-js-no-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lowcheemeng02/node-js-no-docker/issues"
+  },
+  "homepage": "https://github.com/lowcheemeng02/node-js-no-docker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
