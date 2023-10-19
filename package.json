@@ -4,18 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lowcheemeng02/node-js-no-docker.git"
+    "url": "git+https://github.com/lowcheemeng02/node-js-docker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lowcheemeng02/node-js-no-docker/issues"
+    "url": "https://github.com/lowcheemeng02/node-js-docker/issues"
   },
-  "homepage": "https://github.com/lowcheemeng02/node-js-no-docker#readme",
+  "homepage": "https://github.com/lowcheemeng02/node-js-docker#readme",
   "dependencies": {
     "express": "^4.18.2"
   }

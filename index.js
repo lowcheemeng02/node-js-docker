@@ -1,8 +1,8 @@
 // before rum
-//npm install express
+// npm install express
 
 // to run 
-// npm start
+// npm start: runs the "start" script defined in package.json
 
 'use strict';
 
@@ -10,7 +10,7 @@ const express = require('express');
 
 // Constants
 const PORT = 8080;
-const HOST = 'localhost';
+const HOST = '0.0.0.0';
 const OS = require('os');
 const ENV = 'DEV';
 
@@ -19,7 +19,7 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from Node!';
+  const msg = 'Hello CM, from Node!';
   res.send(msg);
 });
 
